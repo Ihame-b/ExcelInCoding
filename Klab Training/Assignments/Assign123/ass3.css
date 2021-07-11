@@ -1,0 +1,36 @@
+form{
+    padding: 12px 20px;  
+    display: inline-block;
+    border: 1px solid #ccc;  
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    
+}
+
+input,select{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 24px;
+    margin: 4px 0;    
+}
+fieldset {       
+    border-radius: 15px;  
+  }  
+legend{
+    font-weight: bold;
+}
+label{
+    width:80px;
+    display: inline-block;
+}
+button{
+    background-color: #1723d1;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

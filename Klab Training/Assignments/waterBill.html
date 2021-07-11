@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src=''></script>
+    <h1>Water Bill Calculator</h1>
+   
+    <div class='container'>
+        <form id='demo'>
+            <label for='initial'>Initial number of m<sup>3</sup></label>
+            <input id='initial' type='number' name='initial' min='0'placeholder='0.03m3' required><br>
+            <small>The number of m<sup>3</sup>after the last bill payment </small><br><br>
+            <label for='current'>The current number of m<sup>3</sup></label>
+            <input id='current' type='number' name='current' min='0'placeholder='0.03m3' required><br>
+            <small>Current number of m<sup>3</sup>on the meter</small><br><br>
+            <label for='category'>Category</label>
+                <select id='category' name='category'>
+                  <option value='public'>
+                    Public Tap
+                  </option>
+                  <option value='residential'>
+                    Residential
+                  </option>
+                  <option value='nonResidential'>
+                    Non Residential
+                  </option>
+                  <option value='industries'>
+                    Industries
+                  </option>
+                </select><br>
+                <small>Choose your category here</small><br><br><br>
+                <button type='submit' onclick='messageOutPut()' class='submit'>Calculate</button>
+                
+          </form>
+      
+      </div>
+</body>
+</html>

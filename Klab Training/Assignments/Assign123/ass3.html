@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass3.css">
+</head>
+<body>
+    <form action="" method ="GET">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div>
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="firstname" placeholder="firstName" required="">
+            </div>
+            <div>
+                <label for="lname">First Name</label>
+                <input id="lname" type="text" name="lastname" placeholder="lastName" required="">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email" placeholder="email" required="">
+            </div>
+            <div>
+                <label for="date">DOB</label>
+                <input id="date" type="date" name="date" required="">
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age" min="1" max="100" required="">
+            </div>
+            <div>
+            <div>Gender</div>
+            <div>
+                <input id="male" type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input id="female" type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input id="other" type="radio" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            </div>
+            <div>
+                <label for="tel">Phone</label>
+                <input id="tel" type="tel" name="phone" max="10" placeholder="enter 10 numbers" required="">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>SKILLS</legend>
+            <div>
+                <div>Courses</div>
+            </div>
+            <div>
+                <input id="math" type="checkbox" name="math" value="Math">
+                <label for="math">Math</label>
+            </div>
+            <div>
+                <input id="economy" type="checkbox" name="economy" value="economy">
+                <label for="economy">Economy</label>
+            </div>
+            <div>
+                <input id="geography" type="checkbox" name="geography" value="geography">
+                <label for="geography">Geography</label>
+            </div>
+            <div>
+                <label for="lang">Languages</label>
+                <select name="dropdown" id="language">
+                    <option value="english">English</option>
+                    <option value="french">French</option>
+                    <option value="kinyarwanda">Kinyarwanda</option>
+                    <option value="kiswahili">Kiswahili</option>
+                </select>
+            </div>
+            <div>
+                <label for="bio">Resume</label>
+                <br>
+                <textarea name="bio" id="bio" cols="50" rows="5">
+                    Enter Description here...
+                </textarea>
+            </div>
+            <div>
+                <label for="file" name="" >CV</label>
+                <input id="file" type="file" name="file" placeholder="upload your file" required="">
+
+            </div>
+        </fieldset>
+                <button type="submit">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+open our cmd
+
+//upgrade pip
+//python -m pip install --upgrade pip
+
+install virtual
+py -m venv virtual
+
+activate virtual
+.\virtual\Scripts\activate
+
+install django
+pip install django  # check write: python// import django// django.get_version()//exit() press enter
+
+start django project
+django-admin startproject myApp .
+
+run my project on server
+python manage.py runserver
+
+install bootstrap
+pip install django-bootstrap4
+
+PostgessInstallation
+
+SQLshell
+
+4 enter//passward of your postgress
+create database tribune;
+
+create name of privilages
+CREATE ROLE ihame WITH SUPERUSER CREATEDB CREATEROLE LOGIN ENCRYPTED PASSWORD 'ihame111';
+grantPlivilages:
+grant ALL PRIVILEGES ON DATABASE tribune to ihame;
+
+
+
+CMD
+
+.\virtual\Scripts\activate
+pip install mysqlclient
+python manage.py migrate
+
+
+
+
+python manage.py check
+make migration:
+python manage.py makemigrations news
+python manage.py sqlmigrate news 0001
+
+
+python manage.py shell
+
+
+
+database
+psql

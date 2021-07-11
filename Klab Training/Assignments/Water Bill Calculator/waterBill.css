@@ -1,0 +1,54 @@
+html {
+    background: url('https://y3e3p9t6.stackpathcdn.com/wp-content/uploads/2018/10/how-to-choose-the-right-water-storage-tank-for-your-needs-image-01.jpg') no-repeat center fixed;
+    background-size:cover;
+    
+}
+h1 {
+    text-align: center;
+    color:rgb(6, 10, 12);
+}
+h3 {
+  text-align: center;
+  text-decoration: black;
+
+}
+.container {
+    border-radius: 5px;
+    background: #f8f6f6;
+    padding: 20px;
+    margin: 15% 30%  5% 30%;
+    box-sizing: border-box; 
+    
+  }
+label {
+    width: 45%;
+    margin-top: 6px;
+    display: inline-block;
+  }
+
+input[type=number], select {
+    
+    width: 45%;
+    margin-top: 6px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  } 
+button{
+    padding: 8px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #bdd1f6;
+    
+  }
+  
+button:hover {
+    background-color: #035000;
+  }
+  @media screen and (max-width: 600px) {
+    label, input, button {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
